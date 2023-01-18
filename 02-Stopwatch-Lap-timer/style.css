@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Poppins:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 *,::before,::after{
   padding: 0;
   margin: 0;
@@ -7,5 +6,14 @@
 }
 
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  height: 100vh;
+}
+
+/**/ variables
+:root{
+  --dark-c: #444;
+  --grey-c: #f3f3f3;
+  --bg-c: #eee;
+  --border-radius: 25px;
 }
