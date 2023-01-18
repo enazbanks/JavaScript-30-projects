@@ -6,7 +6,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: ECECEC;
+  background-color: whitesmoke;
   font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -23,9 +23,10 @@ h1 {
 }
 
 h1 span {
-  background-color: #D3756B;
-  color: var(--light-c);
+  background-color: whitesmoke;
+  color: black;
   padding: 0.2rem 1rem;
+  text-shadow: none;
 }
 
 label {
@@ -51,9 +52,10 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--light-c);
-  text-shadow: var(--text-shadow);
+  color: white;
+  text-shadow: 0 0 black;
   border-radius: 5px;
+  font-size: large;
 }
 
 .element:hover {
