@@ -10,22 +10,23 @@
 </head>
 <body>
   <div class="overlay"></div>
-  <h1>Stopwatch</h1>
-  <h2>Timer</h2>
+  <main class="container">
+    <h1>Stopwatch</h1>
+    <h2>Timer</h2>
 
-  <p class="lap-timer">
-    <span id="minutes">00</span>: <span id="seconds">00</span>,
-    <span id="tens">00</span>
-  </p>
+    <p class="lap-timer">
+      <span id="minutes">00</span>: <span id="seconds">00</span>,
+      <span id="tens">00</span>
+    </p>
 
-  <div class="controllers">
-    <button id="start-btn" class="btn btn-large green">Start</button>
-    <button id="stop-btn" class="btn btn-large red">Stop</button>
-    <button id="reset-btn" class="btn btn-large">Reset</button>
-  </div>
+    <div class="controllers">
+      <button id="start-btn" class="btn btn-large green">Start</button>
+      <button id="stop-btn" class="btn btn-large red">Stop</button>
+      <button id="reset-btn" class="btn btn-large">Reset</button>
+    </div>
 
-  <ul id="laps" class="laps-container"></ul>
-
+    <ul id="laps" class="laps-container"></ul>
+  </main>
   <script>src="main.js"</script>
 </body>
 </html>
