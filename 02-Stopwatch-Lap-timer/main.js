@@ -13,14 +13,15 @@ window.onload = function () {
   let Interval;
 
   startButton.onclick = function () {
+    clearInterval(Interval);
     Interval = setInterval(startTimer, 10);
   };
 
   function startTimer()   {
-    tens++;
+    tensSet++;
     // console.log(tens++);
     if(tensSet < 9 ){
-      tens.innerHTML = "0" + tens;
+      tens.innerHTML = "0" + tensSet;
     }
     if(tensSet > 9 ) tens.innerHTML = tensSet;
 
