@@ -12,10 +12,12 @@ window.onload = function () {
   let tensSet = 00;
   let Interval;
 
+  // Start Button
   startButton.onclick = function () {
     Interval = setInterval(startTimer, 10);
   };
 
+  // Stop Button
   stopButton.onclick = function () {
     clearInterval(Interval);
 
@@ -24,6 +26,22 @@ window.onload = function () {
     li.innerHTML = `lap: ${minutes.innerHTML}:${seconds.innerHTML}:${tens.innerHTML}`;
 
     lap.appendChild(li);
+  };
+
+  // Reset Button
+
+  resetButton.onclick = function () {
+    clearInterval(Interval);
+
+    minutesSet = "00";
+    secondsSet = "00";
+    tensSet = "00";
+
+    minutes.innerHTML = minutesSet;
+    seconds.innerHTML = secondsSet;
+    tens.innerHTML = tensSet;
+
+    document.getElementById("laps").innerHTML = "";
   };
 
   function startTimer()   {

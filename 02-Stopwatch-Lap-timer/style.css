@@ -18,7 +18,7 @@
 body {
   font-family: 'Bebas Neue', cursive;
   height: 100vh;
-  background: url(https://source.unsplash.com/-yqiYu9xRBU) center/
+  background: url(https://source.unsplash.com/fzHmP6z8OQ4) center/
   cover
     no-repeat;
     position: relative;
@@ -38,7 +38,7 @@ body {
 .container {
   position: relative;
   z-index: 3;
-  width: 600px;
+  width: 400px;
   margin: 30px auto;
   text-align: center;
 }
