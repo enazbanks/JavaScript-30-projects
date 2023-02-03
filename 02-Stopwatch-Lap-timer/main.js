@@ -13,8 +13,17 @@ window.onload = function () {
   let Interval;
 
   startButton.onclick = function () {
-    clearInterval(Interval);
     Interval = setInterval(startTimer, 10);
+  };
+
+  stopButton.onclick = function () {
+    clearInterval(Interval);
+
+    const lap = document.getElementById("laps");
+    const li = document.createElement("li");
+    li.innerHTML = `lap: ${minutes.innerHTML}:${seconds.innerHTML}:${tens.innerHTML}`;
+
+    lap.appendChild(li);
   };
 
   function startTimer()   {

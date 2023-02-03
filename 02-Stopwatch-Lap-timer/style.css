@@ -106,5 +106,5 @@ h1, h2 {
 }
 
 .laps-container li:nth-child(even) {
-  color: var(--grey-c);
+  color: var(--bg-c);
 }
