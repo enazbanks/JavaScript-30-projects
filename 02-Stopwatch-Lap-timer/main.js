@@ -15,6 +15,7 @@ window.onload = function () {
   // Start Button
   startButton.onclick = function () {
     Interval = setInterval(startTimer, 10);
+    dimEffect();
   };
 
   // Stop Button
@@ -26,6 +27,7 @@ window.onload = function () {
     li.innerHTML = `lap: ${minutes.innerHTML}:${seconds.innerHTML}:${tens.innerHTML}`;
 
     lap.appendChild(li);
+    dimEffect();
   };
 
   // Reset Button
@@ -72,5 +74,11 @@ window.onload = function () {
     if(minutesSet > 9) {
       minutes.innerHTML = minutesSet;
     }
+  };
+
+  // diming effect function
+  function dimEffect() {
+    const lapTime = document.querySelector(".lap-timer");
+    lapTime.classList.toggle("diming-effect");
   };
 };
