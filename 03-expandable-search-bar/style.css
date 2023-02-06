@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: lightseagreen;
+  color: aliceblue;
+}
+
+nav {
+  height: 60px;
+  background-color: coral;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 100vh;
+}
+
+p {
+  padding: 1rem;
+}
+
+h1 {
+  margin: 2rem;
+  text-align: center;
+}
