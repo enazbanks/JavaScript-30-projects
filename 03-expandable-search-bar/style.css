@@ -59,7 +59,7 @@ input.active-search {
 }
 
 input.active-search:hover {
-  width: 160px;
+  width: 180px;
   transition: 0.3s width ease-in;
 }
 
