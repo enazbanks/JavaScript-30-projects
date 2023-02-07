@@ -46,13 +46,13 @@ function displayTime() {
     bg = `url(https://source.unsplash.com/kW1P8R-UoWI)`;
   } else if (h < 11 && session === "AM") {
     user.innerHTML = `Good Day ${userName}`;
-    bg = `url(https://source.unsplash.com/kW1P8R-UoWI)`;
+    bg = `url(https://source.unsplash.com/_AR74EoWdy0)`;
   } else if (h < 8 && session === "PM") {
     user.innerHTML = `Good Afternoon ${userName}`;
-    bg = `url(https://source.unsplash.com/kW1P8R-UoWI)`;
+    bg = `url(https://source.unsplash.com/ek84n9w1P9M)`;
   } else {
     user.innerHTML = `Good Night ${userName}`;
-    bg = `url(https://source.unsplash.com/kW1P8R-UoWI)`;
+    bg = `url(https://source.unsplash.com/ef0sXQtnCYU)`;
   }
 
   //insert bg img
