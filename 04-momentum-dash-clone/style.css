@@ -45,3 +45,7 @@ body {
   border-bottom: 2px solid #ddd;
   font-size: 3rem;
 }
+
+small {
+  font-size : 50px;
+}
