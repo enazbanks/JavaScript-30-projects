@@ -40,20 +40,20 @@ function displayTime() {
 
   //change body background
   let bg;
-  const userName = "Enaz";
+  // const userName = "Enaz";
   const user = document.getElementById("User")
 
   if (h < 8 && session === "AM") {
-    user.innerHTML = `Good Morning, ${userName}.`;
+    user.innerHTML = `Good Morning`;
     bg = `url(https://source.unsplash.com/vKNjdRBqep0)`;
   } else if (h < 11 && session === "AM") {
-    user.innerHTML = `Good Day, ${userName}.`;
+    user.innerHTML = `Good Day`;
     bg = `url(https://source.unsplash.com/vvYEwcimfBw)`;
   } else if (h = 12 || h < 8 && session === "PM") {
-    user.innerHTML = `Good Afternoon, ${userName}.`;
+    user.innerHTML = `Good Afternoon`;
     bg = `url(https://source.unsplash.com/cO8_uKY532M)`;
   } else {
-    user.innerHTML = `Good Night, ${userName}.`;
+    user.innerHTML = `Good Night`;
     bg = `url(https://source.unsplash.com/ef0sXQtnCYU)`;
   }
 
