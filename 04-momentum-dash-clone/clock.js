@@ -3,6 +3,8 @@ addEventListener('DOMContentLoaded', (displayTime));
 function displayTime() {
   let date = new Date();
 
+  // date.setTime(500000);
+
   // console.log(date.setTime(50));
   let h = date.getHours();
   let m = date.getMinutes();
@@ -42,16 +44,16 @@ function displayTime() {
   const user = document.getElementById("User")
 
   if (h < 8 && session === "AM") {
-    user.innerHTML = `Good Morning ${userName}`;
-    bg = `url(https://source.unsplash.com/kW1P8R-UoWI)`;
+    user.innerHTML = `Good Morning, ${userName}.`;
+    bg = `url(https://source.unsplash.com/vKNjdRBqep0)`;
   } else if (h < 11 && session === "AM") {
-    user.innerHTML = `Good Day ${userName}`;
-    bg = `url(https://source.unsplash.com/_AR74EoWdy0)`;
+    user.innerHTML = `Good Day, ${userName}.`;
+    bg = `url(https://source.unsplash.com/vvYEwcimfBw)`;
   } else if (h = 12 || h < 8 && session === "PM") {
-    user.innerHTML = `Good Afternoon ${userName}`;
-    bg = `url(https://source.unsplash.com/ek84n9w1P9M)`;
+    user.innerHTML = `Good Afternoon, ${userName}.`;
+    bg = `url(https://source.unsplash.com/cO8_uKY532M)`;
   } else {
-    user.innerHTML = `Good Night ${userName}`;
+    user.innerHTML = `Good Night, ${userName}.`;
     bg = `url(https://source.unsplash.com/ef0sXQtnCYU)`;
   }
 
