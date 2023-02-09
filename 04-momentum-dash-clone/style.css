@@ -9,6 +9,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   height: 100vh;
+  color: #fff;
 }
 
 .clock-container {
@@ -16,7 +17,7 @@ body {
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: 0.5px 0.5px 0.5px #333;
+  text-shadow: 1px 1px 1px #333;
   text-align: center;
 }
 
