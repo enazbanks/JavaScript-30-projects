@@ -35,9 +35,9 @@ window.onload = function () {
   resetButton.onclick = function () {
     clearInterval(Interval);
 
-    minutesSet = "00";
-    secondsSet = "00";
-    tensSet = "00";
+    minutesSet = 0;
+    secondsSet = 0;
+    tensSet = 0;
 
     minutes.innerHTML = minutesSet;
     seconds.innerHTML = secondsSet;
